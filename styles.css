@@ -1,0 +1,125 @@
+
+.bodyColor {
+    background-color: #edd6c0;
+}
+
+
+
+
+.tituloPrincipal {
+    display: inline;
+    background-color: #c7a27f;
+    margin: 0px 10px 0px center;
+}
+
+
+ul {
+    margin-left: 40px;
+    width: 4900px;
+}
+
+ul li {
+    display: inline;
+    padding: 0px 70px;
+    margin: 10px 10px 10px 10px;
+}
+
+.paginaHome {
+    background-color: #dbab7d;
+}
+
+.paginaMenu {
+    background-color: #dbab7d;
+}
+
+.paginaUbicaciones {
+    background-color: #dbab7d;
+}
+
+.paginaBiblioteca {
+    background-color: #dbab7d;
+}
+
+.paginaContacto {
+    background-color: #dbab7d;
+}
+
+.colorLink {
+    color: black;
+}
+
+
+
+.flex-container {
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-item img {
+    width: 50%;
+    margin: 100px;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+@media (max-width: 600px) {
+    .grid-responsive {
+       display: grid;
+    }
+
+    .flex-container {
+        display: inline;
+    }
+    
+}
+
+/*MENU*/
+
+.gridd-responsive {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.productosMenu {
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerPr {
+    padding: 30px 150px;
+    margin: 450px;
+}
+

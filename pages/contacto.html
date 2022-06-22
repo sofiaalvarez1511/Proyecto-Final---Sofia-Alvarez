@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../img/Sin título (2).png">
+    <LINK rel="stylesheet" href="../styles.css">
+</head>
+<body class="bodyColor">
+
+<h1 class="tituloPrincipal">¡Contactanos!</h1>
+
+<hr>
+
+<ul class="grid-responsive">
+    <li class="paginaHome"><a class="colorLink" href="../index.html">HOME</a></li>
+    <li class="paginaMenu"><a class="colorLink" href="./menu.html">MENU</a></li>
+    <li class="paginaUbicaciones"><a class="colorLink" href="./ubicaciones.html">UBICACIONES</a></li>
+    <li class="paginaBiblioteca"><a class="colorLink" href="./biblioteca.html">BIBLIOTECA</a></li>
+    <li class="paginaContacto"><a class="colorLink" href="./contacto.html">CONTACTO</a></li>
+</ul>
+
+<hr>
+
+<form action="enviar.php" method="get">
+ 
+<div>
+        <label for="">Nombre</label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre">
+</div>
+    <br>
+<div>
+    <label for="">E-Mail</label>
+    <input type="text" id="e-mail" placeholder="Ingrese su correo electronico">
+</div>
+    <br>
+<div>
+    <label for="caja">Comentario</label>
+    <textarea name="caja" id="caja" cols="35" rows="5"></textarea>
+</div>
+<br>
+<div>
+    <input type="checkbox" name="noticias" id=""> Desea recibir noticias a su correo.
+</div>
+<br>
+<div>
+    <label for="tema">Seleccione el tema de su comentario:</label>
+    <select name="temas" id="temas">
+        <option value="00">Seleccione una opcion</option>
+        <option value="01">Reseña</option>
+        <option value="02">Queja</option>
+        <option value="03">Problema</option>
+    </select>
+</div>
+<br>
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar todo">
+
+
+
+</form>
+
+<hr>
+
+
+<footer class="footerPr">
+    <img src="../img/Sin título (2).png" width="90">
+    <a href="https://www.instagram.com/sataraxia/">Redes</a> 
+    <!--mas redes y links de utilidad-->
+</footer>
+
+</body>
+
+
+</html>
