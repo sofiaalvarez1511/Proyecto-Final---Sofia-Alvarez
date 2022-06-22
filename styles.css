@@ -48,6 +48,15 @@ ul li {
     color: black;
 }
 
+li:hover {
+    background-color: #8c6d46;
+    
+}
+
+.colorLink:hover {
+    color: #dbab7d;
+}
+
 
 
 .flex-container {
